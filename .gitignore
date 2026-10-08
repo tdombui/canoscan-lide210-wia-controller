@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+# Leftover temp file if a scan is interrupted mid-save
+*.tmp.bmp
+
+# Scanned output is personal data and shouldn't be committed. Keep the
+# folder structure via .gitkeep placeholders only.
+output/*/*
+!output/*/.gitkeep
+
+# Original prompt/spec used to bootstrap this project; superseded by README.
+project-launch-script.txt
